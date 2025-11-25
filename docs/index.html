@@ -159,7 +159,7 @@
 <body>
   <div class="container">
     <header>
-      <h1>📊 Download Statistics</h1>
+      <h1>Download Statistics</h1>
       <p class="subtitle">Real-time tracking of GitHub release downloads</p>
     </header>
 
@@ -168,14 +168,14 @@
     </div>
 
     <footer>
-      <p>Updated daily via GitHub Actions • <a href="https://github.com">View Source</a></p>
+      <p>Updated daily via GitHub Actions • <a href="https://github.com/zxcnoname666/download-history">View Source</a></p>
     </footer>
   </div>
 
   <script>
     async function loadCharts() {
       try {
-        const response = await fetch('../config.json');
+        const response = await fetch('./config.json');
         const config = await response.json();
 
         const chartsContainer = document.getElementById('charts');
