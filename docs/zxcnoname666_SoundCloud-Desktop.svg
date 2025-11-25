@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for area fill -->
+    <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.05" />
+    </linearGradient>
+
+    <!-- Glow filter for line -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Animation -->
+    <style>
+      @keyframes draw {
+        from { stroke-dashoffset: 2000; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .line-path {
+        stroke-dasharray: 2000;
+        stroke-dashoffset: 2000;
+        animation: draw 1.5s ease-out forwards;
+      }
+      .area-path {
+        opacity: 0;
+        animation: fadeIn 1s ease-out 0.5s forwards;
+      }
+      .data-point {
+        opacity: 0;
+        animation: fadeIn 0.5s ease-out 1s forwards;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0d1117" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="25" text-anchor="middle" fill="#c9d1d9" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600">
+    zxcnoname666/SoundCloud-Desktop Downloads
+  </text>
+
+  <!-- Stats -->
+  <text x="780" y="25" text-anchor="end" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">
+    60.1K total
+  </text>
+  <text x="780" y="42" text-anchor="end" fill="#3fb950" font-family="system-ui, -apple-system, sans-serif" font-size="12">
+    +0 (+0.0%)
+  </text>
+
+  <!-- Grid lines -->
+  <g opacity="0.1">
+    
+      <line x1="60" y1="340" x2="760" y2="340"
+            stroke="#c9d1d9" stroke-width="1"/>
+    
+      <line x1="60" y1="265" x2="760" y2="265"
+            stroke="#c9d1d9" stroke-width="1"/>
+    
+      <line x1="60" y1="190" x2="760" y2="190"
+            stroke="#c9d1d9" stroke-width="1"/>
+    
+      <line x1="60" y1="115" x2="760" y2="115"
+            stroke="#c9d1d9" stroke-width="1"/>
+    
+      <line x1="60" y1="40" x2="760" y2="40"
+            stroke="#c9d1d9" stroke-width="1"/>
+    
+  </g>
+
+  <!-- Y-axis labels -->
+  
+    <text x="50" y="344" text-anchor="end"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      0
+    </text>
+  
+    <text x="50" y="269" text-anchor="end"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      15.0K
+    </text>
+  
+    <text x="50" y="194" text-anchor="end"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      30.1K
+    </text>
+  
+    <text x="50" y="119" text-anchor="end"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      45.1K
+    </text>
+  
+    <text x="50" y="44" text-anchor="end"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      60.1K
+    </text>
+  
+
+  <!-- X-axis labels -->
+  
+    <text x="60" y="360" text-anchor="middle"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      Nov 25
+    </text>
+  
+
+  <!-- Area under line -->
+  <path d="M 60 340
+    L 60.00 40.00
+    L 760 340
+    Z" fill="url(#areaGradient)" class="area-path"/>
+
+  <!-- Main line with glow -->
+  <path d="M 60.00 40.00" fill="none" stroke="#3b82f6" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" class="line-path"/>
+
+  <!-- Data points -->
+  
+    <circle cx="60" cy="40" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+  
+
+  <!-- Axis lines -->
+  <line x1="60" y1="40" x2="60" y2="340"
+        stroke="#30363d" stroke-width="2"/>
+  <line x1="60" y1="340" x2="760" y2="340"
+        stroke="#30363d" stroke-width="2"/>
+</svg>

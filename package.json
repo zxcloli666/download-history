@@ -1,0 +1,11 @@
+{
+  "name": "download-history",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GitHub Release Downloads Tracker",
+  "scripts": {
+    "fetch": "node scripts/fetch-stats.js",
+    "chart": "node scripts/generate-chart.js",
+    "update": "npm run fetch && npm run chart"
+  }
+}
