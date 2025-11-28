@@ -52,10 +52,10 @@
 
   <!-- Stats -->
   <text x="780" y="25" text-anchor="end" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">
-    60.5K total
+    60.8K total
   </text>
   <text x="780" y="42" text-anchor="end" fill="#3fb950" font-family="system-ui, -apple-system, sans-serif" font-size="12">
-    +250 (+0.4%)
+    +232 (+0.4%)
   </text>
 
   <!-- Grid lines -->
@@ -87,22 +87,22 @@
   
     <text x="50" y="269" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      15.1K
+      15.2K
     </text>
   
     <text x="50" y="194" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      30.3K
+      30.4K
     </text>
   
     <text x="50" y="119" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      45.4K
+      45.6K
     </text>
   
     <text x="50" y="44" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      60.5K
+      60.8K
     </text>
   
 
@@ -113,32 +113,39 @@
       Nov 25
     </text>
   
-    <text x="410" y="360" text-anchor="middle"
+    <text x="293.3333333333333" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 26
     </text>
   
-    <text x="760" y="360" text-anchor="middle"
+    <text x="526.6666666666666" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 27
+    </text>
+  
+    <text x="760" y="360" text-anchor="middle"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      Nov 28
     </text>
   
 
   <!-- Area under line -->
   <path d="M 60 340
-    L 60.00 41.97 L 410.00 41.24 L 760.00 40.00
+    L 60.00 43.10 L 293.33 42.38 L 526.67 41.15 L 760.00 40.00
     L 760 340
     Z" fill="url(#areaGradient)" class="area-path"/>
 
   <!-- Main line with glow -->
-  <path d="M 60.00 41.97 L 410.00 41.24 L 760.00 40.00" fill="none" stroke="#3b82f6" stroke-width="3"
+  <path d="M 60.00 43.10 L 293.33 42.38 L 526.67 41.15 L 760.00 40.00" fill="none" stroke="#3b82f6" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" class="line-path"/>
 
   <!-- Data points -->
   
-    <circle cx="60" cy="41.967034418973356" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="60" cy="43.10463968410659" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="410" cy="41.238686661822044" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="293.3333333333333" cy="42.37907206317868" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+  
+    <circle cx="526.6666666666666" cy="41.145113524185604" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
     <circle cx="760" cy="40" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
