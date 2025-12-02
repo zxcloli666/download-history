@@ -10,7 +10,7 @@ const DOCS_DIR = path.join(__dirname, '..', 'docs');
 
 const WIDTH = 800;
 const HEIGHT = 400;
-const PADDING = { top: 40, right: 40, bottom: 60, left: 60 };
+const PADDING = { top: 55, right: 40, bottom: 60, left: 60 };
 const CHART_WIDTH = WIDTH - PADDING.left - PADDING.right;
 const CHART_HEIGHT = HEIGHT - PADDING.top - PADDING.bottom;
 
@@ -34,7 +34,7 @@ function generateSVG(owner, repo, data) {
 
   const values = data.map(d => d.total);
   const maxValue = Math.max(...values, 1);
-  const minValue = Math.min(...values, 0);
+  const minValue = Math.min(...values);
   const valueRange = maxValue - minValue || 1;
 
   // Calculate points for the line
@@ -225,6 +225,11 @@ function main() {
   for (const repo of config.repos) {
     generateChart(repo);
   }
+
+  // Copy config.json to docs/ for GitHub Pages (symlinks don't work on Pages)
+  const docsConfigPath = path.join(DOCS_DIR, 'config.json');
+  fs.writeFileSync(docsConfigPath, JSON.stringify(config, null, 2));
+  console.log('✓ Copied config.json to docs/');
 
   console.log('\n✓ All charts generated');
 }
