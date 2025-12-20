@@ -52,10 +52,10 @@
 
   <!-- Stats -->
   <text x="780" y="25" text-anchor="end" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">
-    68.2K total
+    68.4K total
   </text>
   <text x="780" y="42" text-anchor="end" fill="#3fb950" font-family="system-ui, -apple-system, sans-serif" font-size="12">
-    +285 (+0.4%)
+    +203 (+0.3%)
   </text>
 
   <!-- Grid lines -->
@@ -92,17 +92,17 @@
   
     <text x="50" y="201.5" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      64.2K
+      64.3K
     </text>
   
     <text x="50" y="130.25" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      66.2K
+      66.4K
     </text>
   
     <text x="50" y="59" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      68.2K
+      68.4K
     </text>
   
 
@@ -113,106 +113,113 @@
       Nov 25
     </text>
   
-    <text x="147.5" y="360" text-anchor="middle"
+    <text x="144" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 28
     </text>
   
-    <text x="235" y="360" text-anchor="middle"
+    <text x="228" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Dec 1
     </text>
   
-    <text x="322.5" y="360" text-anchor="middle"
+    <text x="312" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Dec 4
     </text>
   
-    <text x="410" y="360" text-anchor="middle"
+    <text x="396" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Dec 7
     </text>
   
-    <text x="497.5" y="360" text-anchor="middle"
+    <text x="480" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Dec 10
     </text>
   
-    <text x="585" y="360" text-anchor="middle"
+    <text x="564" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Dec 13
     </text>
   
-    <text x="672.5" y="360" text-anchor="middle"
+    <text x="648" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Dec 16
     </text>
   
-    <text x="760" y="360" text-anchor="middle"
+    <text x="732" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Dec 19
+    </text>
+  
+    <text x="760" y="360" text-anchor="middle"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      Dec 20
     </text>
   
 
   <!-- Area under line -->
   <path d="M 60 340
-    L 60.00 340.00 L 89.17 334.82 L 118.33 326.02 L 147.50 317.85 L 176.67 301.61 L 205.83 284.85 L 235.00 271.65 L 264.17 259.32 L 293.33 248.37 L 322.50 235.52 L 351.67 221.18 L 380.83 205.83 L 410.00 191.88 L 439.17 177.06 L 468.33 166.25 L 497.50 155.05 L 526.67 139.83 L 555.83 129.66 L 585.00 115.57 L 614.17 99.30 L 643.33 87.05 L 672.50 76.97 L 701.67 70.46 L 730.83 65.04 L 760.00 55.00
+    L 60.00 340.00 L 88.00 334.95 L 116.00 326.36 L 144.00 318.39 L 172.00 302.55 L 200.00 286.20 L 228.00 273.32 L 256.00 261.30 L 284.00 250.61 L 312.00 238.07 L 340.00 224.09 L 368.00 209.11 L 396.00 195.51 L 424.00 181.04 L 452.00 170.50 L 480.00 159.57 L 508.00 144.73 L 536.00 134.80 L 564.00 121.06 L 592.00 105.19 L 620.00 93.24 L 648.00 83.41 L 676.00 77.06 L 704.00 71.76 L 732.00 61.97 L 760.00 55.00
     L 760 340
     Z" fill="url(#areaGradient)" class="area-path"/>
 
   <!-- Main line with glow -->
-  <path d="M 60.00 340.00 L 89.17 334.82 L 118.33 326.02 L 147.50 317.85 L 176.67 301.61 L 205.83 284.85 L 235.00 271.65 L 264.17 259.32 L 293.33 248.37 L 322.50 235.52 L 351.67 221.18 L 380.83 205.83 L 410.00 191.88 L 439.17 177.06 L 468.33 166.25 L 497.50 155.05 L 526.67 139.83 L 555.83 129.66 L 585.00 115.57 L 614.17 99.30 L 643.33 87.05 L 672.50 76.97 L 701.67 70.46 L 730.83 65.04 L 760.00 55.00" fill="none" stroke="#3b82f6" stroke-width="3"
+  <path d="M 60.00 340.00 L 88.00 334.95 L 116.00 326.36 L 144.00 318.39 L 172.00 302.55 L 200.00 286.20 L 228.00 273.32 L 256.00 261.30 L 284.00 250.61 L 312.00 238.07 L 340.00 224.09 L 368.00 209.11 L 396.00 195.51 L 424.00 181.04 L 452.00 170.50 L 480.00 159.57 L 508.00 144.73 L 536.00 134.80 L 564.00 121.06 L 592.00 105.19 L 620.00 93.24 L 648.00 83.41 L 676.00 77.06 L 704.00 71.76 L 732.00 61.97 L 760.00 55.00" fill="none" stroke="#3b82f6" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" class="line-path"/>
 
   <!-- Data points -->
   
     <circle cx="60" cy="340" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="89.16666666666666" cy="334.82330408995426" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="88" cy="334.94997589199613" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="118.33333333333333" cy="326.019399481033" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="116" cy="326.36149951783995" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="147.5" cy="317.84937600395403" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="144" cy="318.3913934426229" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="176.66666666666666" cy="301.61497590510317" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="172" cy="302.5542430086789" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="205.83333333333334" cy="284.852341529717" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="200" cy="286.2017839922854" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="235" cy="271.6464846163351" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="228" cy="273.3190694310511" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="264.1666666666667" cy="259.3210181638453" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="256" cy="261.2952025072324" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="293.3333333333333" cy="248.36896083034722" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="284" cy="250.61113789778207" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="322.5" cy="235.51526010132213" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="312" cy="238.07196239151398" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="351.6666666666667" cy="221.1825033979983" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="340" cy="224.08992285438768" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="380.8333333333333" cy="205.82849376003955" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="368" cy="209.1116200578592" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="410" cy="191.8831088595082" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="396" cy="195.50747348119577" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="439.16666666666663" cy="177.05733349808477" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="424" cy="181.04447926711669" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="468.33333333333337" cy="166.24613863832943" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="452.00000000000006" cy="170.49783027965285" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="497.5" cy="155.04757197578155" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="480" cy="159.57328833172613" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="526.6666666666666" cy="139.83442481156555" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="508" cy="144.7324011571842" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="555.8333333333334" cy="129.65711108365252" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="536" cy="134.8041224686596" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="585" cy="115.57086370937847" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="564" cy="121.06256027000964" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="614.1666666666666" cy="99.30124799209193" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="592" cy="105.19105593056895" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="643.3333333333334" cy="87.04621277647351" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="620" cy="93.23589681774351" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="672.5" cy="76.97454590386758" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="648" cy="83.41067984570878" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="701.6666666666666" cy="70.45965649326581" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="676" cy="77.05520732883315" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="730.8333333333334" cy="65.03645125417029" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="704" cy="71.76470588235293" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+  
+    <circle cx="732" cy="61.97384281581486" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
     <circle cx="760" cy="55" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
