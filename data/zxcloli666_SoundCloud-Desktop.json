@@ -10774,5 +10774,55 @@
         "count": 1123
       }
     ]
+  },
+  {
+    "date": "2026-07-23",
+    "total": 292204,
+    "formats": [
+      {
+        "ext": ".exe",
+        "count": 184664
+      },
+      {
+        "ext": ".rpm",
+        "count": 47103
+      },
+      {
+        "ext": ".asar",
+        "count": 13048
+      },
+      {
+        "ext": ".dmg",
+        "count": 10285
+      },
+      {
+        "ext": ".appimage",
+        "count": 9369
+      },
+      {
+        "ext": ".zip",
+        "count": 7767
+      },
+      {
+        "ext": ".deb",
+        "count": 6139
+      },
+      {
+        "ext": ".flatpak",
+        "count": 4438
+      },
+      {
+        "ext": ".gz",
+        "count": 4294
+      },
+      {
+        "ext": ".msi",
+        "count": 3974
+      },
+      {
+        "ext": ".sig",
+        "count": 1123
+      }
+    ]
   }
 ]
