@@ -52,10 +52,10 @@
 
   <!-- Stats -->
   <text x="780" y="25" text-anchor="end" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">
-    27.6K total
+    27.7K total
   </text>
   <text x="780" y="42" text-anchor="end" fill="#3fb950" font-family="system-ui, -apple-system, sans-serif" font-size="12">
-    +132 (+0.5%)
+    +83 (+0.3%)
   </text>
 
   <!-- Grid lines -->
@@ -87,7 +87,7 @@
   
     <text x="50" y="272.75" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      25.9K
+      26.0K
     </text>
   
     <text x="50" y="201.5" text-anchor="end"
@@ -102,7 +102,7 @@
   
     <text x="50" y="59" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      27.6K
+      27.7K
     </text>
   
 
@@ -113,109 +113,116 @@
       Oct 25
     </text>
   
-    <text x="113.84615384615384" y="360" text-anchor="middle"
+    <text x="110" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Oct 26
     </text>
   
-    <text x="167.69230769230768" y="360" text-anchor="middle"
+    <text x="160" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Oct 27
     </text>
   
-    <text x="221.53846153846155" y="360" text-anchor="middle"
+    <text x="210" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Oct 28
     </text>
   
-    <text x="275.38461538461536" y="360" text-anchor="middle"
+    <text x="260" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Oct 29
     </text>
   
-    <text x="329.2307692307692" y="360" text-anchor="middle"
+    <text x="310" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Oct 30
     </text>
   
-    <text x="383.0769230769231" y="360" text-anchor="middle"
+    <text x="360" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Oct 31
     </text>
   
-    <text x="436.9230769230769" y="360" text-anchor="middle"
+    <text x="410" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 1
     </text>
   
-    <text x="490.7692307692308" y="360" text-anchor="middle"
+    <text x="460" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 2
     </text>
   
-    <text x="544.6153846153845" y="360" text-anchor="middle"
+    <text x="510.00000000000006" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 3
     </text>
   
-    <text x="598.4615384615385" y="360" text-anchor="middle"
+    <text x="560" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 4
     </text>
   
-    <text x="652.3076923076923" y="360" text-anchor="middle"
+    <text x="610" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 5
     </text>
   
-    <text x="706.1538461538462" y="360" text-anchor="middle"
+    <text x="660" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 6
     </text>
   
-    <text x="760" y="360" text-anchor="middle"
+    <text x="710" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 7
+    </text>
+  
+    <text x="760" y="360" text-anchor="middle"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      Nov 8
     </text>
   
 
   <!-- Area under line -->
   <path d="M 60 340
-    L 60.00 340.00 L 113.85 330.76 L 167.69 319.98 L 221.54 304.58 L 275.38 288.54 L 329.23 277.89 L 383.08 263.14 L 436.92 150.86 L 490.77 138.92 L 544.62 122.62 L 598.46 100.30 L 652.31 88.11 L 706.15 71.94 L 760.00 55.00
+    L 60.00 340.00 L 110.00 331.09 L 160.00 320.70 L 210.00 305.86 L 260.00 290.40 L 310.00 280.13 L 360.00 265.90 L 410.00 157.67 L 460.00 146.17 L 510.00 130.46 L 560.00 108.93 L 610.00 97.18 L 660.00 81.60 L 710.00 65.27 L 760.00 55.00
     L 760 340
     Z" fill="url(#areaGradient)" class="area-path"/>
 
   <!-- Main line with glow -->
-  <path d="M 60.00 340.00 L 113.85 330.76 L 167.69 319.98 L 221.54 304.58 L 275.38 288.54 L 329.23 277.89 L 383.08 263.14 L 436.92 150.86 L 490.77 138.92 L 544.62 122.62 L 598.46 100.30 L 652.31 88.11 L 706.15 71.94 L 760.00 55.00" fill="none" stroke="#3b82f6" stroke-width="3"
+  <path d="M 60.00 340.00 L 110.00 331.09 L 160.00 320.70 L 210.00 305.86 L 260.00 290.40 L 310.00 280.13 L 360.00 265.90 L 410.00 157.67 L 460.00 146.17 L 510.00 130.46 L 560.00 108.93 L 610.00 97.18 L 660.00 81.60 L 710.00 65.27 L 760.00 55.00" fill="none" stroke="#3b82f6" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" class="line-path"/>
 
   <!-- Data points -->
   
     <circle cx="60" cy="340" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="113.84615384615384" cy="330.76091850517787" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="110" cy="331.09375" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="167.69230769230768" cy="319.981990094552" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="160" cy="320.703125" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="221.53846153846155" cy="304.5835209365151" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="210" cy="305.859375" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="275.38461538461536" cy="288.5434488968933" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="260" cy="290.3971354166667" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="329.2307692307692" cy="277.8928410625844" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="310" cy="280.1302083333333" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="383.0769230769231" cy="263.13597478613235" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="360" cy="265.9049479166667" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="436.9230769230769" cy="150.8554705087798" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="410" cy="157.66927083333334" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="490.7692307692308" cy="138.9216569113012" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="460" cy="146.16536458333334" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="544.6153846153845" cy="122.62494371904549" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="510.00000000000006" cy="130.45572916666666" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="598.4615384615385" cy="100.29716343989193" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="560" cy="108.93229166666669" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="652.3076923076923" cy="88.10670868977937" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="610" cy="97.18098958333334" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="706.1538461538462" cy="71.93831607384061" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="660" cy="81.59505208333331" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+  
+    <circle cx="710" cy="65.26692708333331" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
     <circle cx="760" cy="55" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
