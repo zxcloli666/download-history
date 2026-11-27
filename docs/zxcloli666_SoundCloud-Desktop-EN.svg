@@ -52,10 +52,10 @@
 
   <!-- Stats -->
   <text x="780" y="25" text-anchor="end" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">
-    29.6K total
+    29.7K total
   </text>
   <text x="780" y="42" text-anchor="end" fill="#3fb950" font-family="system-ui, -apple-system, sans-serif" font-size="12">
-    +76 (+0.3%)
+    +131 (+0.4%)
   </text>
 
   <!-- Grid lines -->
@@ -87,22 +87,22 @@
   
     <text x="50" y="272.75" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      26.4K
+      26.5K
     </text>
   
     <text x="50" y="201.5" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      27.5K
+      27.6K
     </text>
   
     <text x="50" y="130.25" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      28.5K
+      28.6K
     </text>
   
     <text x="50" y="59" text-anchor="end"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
-      29.6K
+      29.7K
     </text>
   
 
@@ -113,122 +113,129 @@
       Oct 25
     </text>
   
-    <text x="147.5" y="360" text-anchor="middle"
+    <text x="144.84848484848484" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Oct 29
     </text>
   
-    <text x="235" y="360" text-anchor="middle"
+    <text x="229.6969696969697" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 2
     </text>
   
-    <text x="322.5" y="360" text-anchor="middle"
+    <text x="314.54545454545456" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 6
     </text>
   
-    <text x="410" y="360" text-anchor="middle"
+    <text x="399.3939393939394" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 10
     </text>
   
-    <text x="497.5" y="360" text-anchor="middle"
+    <text x="484.24242424242425" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 14
     </text>
   
-    <text x="585" y="360" text-anchor="middle"
+    <text x="569.0909090909091" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 18
     </text>
   
-    <text x="672.5" y="360" text-anchor="middle"
+    <text x="653.939393939394" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 22
     </text>
   
-    <text x="760" y="360" text-anchor="middle"
+    <text x="738.7878787878788" y="360" text-anchor="middle"
           fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
       Nov 26
+    </text>
+  
+    <text x="760" y="360" text-anchor="middle"
+          fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+      Nov 27
     </text>
   
 
   <!-- Area under line -->
   <path d="M 60 340
-    L 60.00 340.00 L 81.88 335.11 L 103.75 329.40 L 125.63 321.25 L 147.50 312.76 L 169.38 307.13 L 191.25 299.31 L 213.13 239.88 L 235.00 233.57 L 256.88 224.94 L 278.75 213.12 L 300.63 206.67 L 322.50 198.11 L 344.38 189.15 L 366.25 183.51 L 388.13 176.04 L 410.00 170.47 L 431.88 160.48 L 453.75 156.14 L 475.63 148.73 L 497.50 144.66 L 519.38 137.25 L 541.25 128.29 L 563.13 119.93 L 585.00 111.51 L 606.88 105.87 L 628.75 98.06 L 650.63 93.58 L 672.50 88.76 L 694.38 78.98 L 716.25 71.57 L 738.13 60.16 L 760.00 55.00
+    L 60.00 340.00 L 81.21 335.26 L 102.42 329.72 L 123.64 321.82 L 144.85 313.59 L 166.06 308.12 L 187.27 300.55 L 208.48 242.91 L 229.70 236.79 L 250.91 228.42 L 272.12 216.96 L 293.33 210.71 L 314.55 202.41 L 335.76 193.71 L 356.97 188.25 L 378.18 181.00 L 399.39 175.60 L 420.61 165.92 L 441.82 161.70 L 463.03 154.52 L 484.24 150.57 L 505.45 143.39 L 526.67 134.70 L 547.88 126.60 L 569.09 118.43 L 590.30 112.96 L 611.52 105.39 L 632.73 101.04 L 653.94 96.36 L 675.15 86.88 L 696.36 79.70 L 717.58 68.63 L 738.79 63.63 L 760.00 55.00
     L 760 340
     Z" fill="url(#areaGradient)" class="area-path"/>
 
   <!-- Main line with glow -->
-  <path d="M 60.00 340.00 L 81.88 335.11 L 103.75 329.40 L 125.63 321.25 L 147.50 312.76 L 169.38 307.13 L 191.25 299.31 L 213.13 239.88 L 235.00 233.57 L 256.88 224.94 L 278.75 213.12 L 300.63 206.67 L 322.50 198.11 L 344.38 189.15 L 366.25 183.51 L 388.13 176.04 L 410.00 170.47 L 431.88 160.48 L 453.75 156.14 L 475.63 148.73 L 497.50 144.66 L 519.38 137.25 L 541.25 128.29 L 563.13 119.93 L 585.00 111.51 L 606.88 105.87 L 628.75 98.06 L 650.63 93.58 L 672.50 88.76 L 694.38 78.98 L 716.25 71.57 L 738.13 60.16 L 760.00 55.00" fill="none" stroke="#3b82f6" stroke-width="3"
+  <path d="M 60.00 340.00 L 81.21 335.26 L 102.42 329.72 L 123.64 321.82 L 144.85 313.59 L 166.06 308.12 L 187.27 300.55 L 208.48 242.91 L 229.70 236.79 L 250.91 228.42 L 272.12 216.96 L 293.33 210.71 L 314.55 202.41 L 335.76 193.71 L 356.97 188.25 L 378.18 181.00 L 399.39 175.60 L 420.61 165.92 L 441.82 161.70 L 463.03 154.52 L 484.24 150.57 L 505.45 143.39 L 526.67 134.70 L 547.88 126.60 L 569.09 118.43 L 590.30 112.96 L 611.52 105.39 L 632.73 101.04 L 653.94 96.36 L 675.15 86.88 L 696.36 79.70 L 717.58 68.63 L 738.79 63.63 L 760.00 55.00" fill="none" stroke="#3b82f6" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" class="line-path"/>
 
   <!-- Data points -->
   
     <circle cx="60" cy="340" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="81.875" cy="335.10962821734984" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="81.21212121212122" cy="335.25768430783455" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="103.75" cy="329.40419447092466" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="102.42424242424242" cy="329.7249826669748" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="125.625" cy="321.25357483317447" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="123.63636363636364" cy="321.8211231800324" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="147.5" cy="312.7633460438513" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="144.84848484848484" cy="313.5879362144673" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="169.375" cy="307.1258341277407" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="166.06060606060606" cy="308.1211000693321" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="191.25" cy="299.3148236415634" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="187.27272727272728" cy="300.54656806101224" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="213.125" cy="239.88322211630123" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="208.4848484848485" cy="242.91425930205685" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="235" cy="233.56649189704478" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="229.6969696969697" cy="236.78876819967644" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="256.875" cy="224.94041944709247" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="250.9090909090909" cy="228.42385024266235" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="278.75" cy="213.12202097235462" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="272.1212121212121" cy="216.9632539865958" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="300.625" cy="206.66944709246903" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="293.3333333333333" cy="210.70603189276636" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="322.5" cy="198.11129647283127" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="314.54545454545456" cy="202.40697943147677" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="344.375" cy="189.145614871306" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="335.75757575757575" cy="193.71273399584007" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="366.25" cy="183.50810295519543" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="356.969696969697" cy="188.24589785070486" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="388.125" cy="176.03670162059106" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="378.1818181818182" cy="181.00069332100762" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="410" cy="170.46711153479504" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="399.3939393939394" cy="175.59972267159696" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="431.875" cy="160.482602478551" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="420.6060606060606" cy="165.91749480009244" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="453.75" cy="156.13560533841755" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="441.8181818181818" cy="161.70210307372315" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="475.625" cy="148.73212583412774" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="463.03030303030306" cy="154.5227640397504" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="497.5" cy="144.65681601525262" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="484.24242424242425" cy="150.57083429627917" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="519.375" cy="137.25333651096284" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="505.45454545454544" cy="143.39149526230642" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="541.25" cy="128.28765490943755" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="526.6666666666666" cy="134.69724982666975" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="563.125" cy="119.93326978074356" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="547.878787878788" cy="126.59579385255373" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="585" cy="111.51096282173498" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="569.0909090909091" cy="118.42847238271321" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="606.875" cy="105.87345090562442" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="590.3030303030303" cy="112.961636237578" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="628.75" cy="98.06244041944709" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="611.5151515151515" cy="105.38710422925814" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="650.625" cy="93.57959961868445" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="632.7272727272727" cy="101.0399815114398" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="672.5" cy="88.75714966634888" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="653.939393939394" cy="96.36353131499885" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="694.375" cy="78.97640610104861" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="675.1515151515151" cy="86.8788999306679" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="716.25" cy="71.5729265967588" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="696.3636363636364" cy="79.69956089669517" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
-    <circle cx="738.125" cy="60.16205910390846" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+    <circle cx="717.5757575757576" cy="68.63415761497572" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
+  
+    <circle cx="738.7878787878788" cy="63.62837993991218" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
     <circle cx="760" cy="55" r="4" fill="#3b82f6" stroke="#0d1117" stroke-width="2" class="data-point"/>
   
